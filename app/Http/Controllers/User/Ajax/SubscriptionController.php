@@ -5,6 +5,7 @@ namespace App\Http\Controllers\User\Ajax;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Auth;
 
 class SubscriptionController extends Controller
 {
