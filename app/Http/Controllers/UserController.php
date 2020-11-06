@@ -4,14 +4,9 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
-use Illuminate\Notifications\Notifiable;
-use Laravel\Cashier\Billable;
 
 class UserController extends Controller
 {
-    use Notifiable;
-    use Billable;
-
     /**
      * Display a listing of the resource.
      *
